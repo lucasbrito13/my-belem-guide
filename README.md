@@ -1,12 +1,53 @@
-# React + Vite
+# 🌐 MyBelémGuide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **MyBelémGuide** é um projeto em desenvolvimento que busca criar um **guia interativo da cidade de Belém**, reunindo informações úteis para moradores e visitantes.  
+A proposta é oferecer uma interface moderna, responsiva e intuitiva, com recursos de busca e filtragem para facilitar a navegação.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Status do Projeto
+🚧 **Em desenvolvimento** — Atualmente, a estrutura base do projeto está sendo criada, com o **Header** como primeiro componente implementado.  
+O Header é reutilizável em todas as páginas, garantindo consistência visual e facilidade de manutenção.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎨 Design e UI/UX
+- Protótipo criado no **Visily**, garantindo um layout claro e funcional.
+- Conversão do design para código usando **React.js** e **Styled Components**.
+- **Componentização** para manter organização, reaproveitamento e padronização.
+
+---
+
+## 🛠 Tecnologias Utilizadas
+- **Front-end**:
+  - React.js
+  - Styled Components
+  - JavaScript (ES6+)
+  - HTML5
+  - CSS3
+
+- **Ferramentas**:
+  - Git & GitHub
+  - Visily (UI/UX)
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. **Clone o repositório**  
+   ```bash
+   git clone https://github.com/lucasbrito13/my-belem-guide.git
+
+## 📅 Próximos Passos
+- Concluir as seções principais do site seguindo a mesma abordagem modular.
+- Implementar responsividade completa para dispositivos móveis.
+- Desenvolver o back-end para gerenciar dados dinâmicos.
+- Adicionar sistema de autenticação e áreas restritas.
+- Integrar APIs e banco de dados.
+
+## 🤝 Contribuições
+Se você é desenvolvedor e quer colaborar, especialmente no **back-end**, entre em contato ou envie um **Pull Request**.
+
+## 📬 Contato
+- **GitHub:** [lucasbrito13](https://github.com/lucasbrito13)
+- **LinkedIn:** [Lucas Brito](https://www.linkedin.com/in/lucas-brito-667552241/)
