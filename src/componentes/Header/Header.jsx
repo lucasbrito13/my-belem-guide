@@ -1,20 +1,24 @@
 import React from 'react';
 import { Container, LeftArea, Nav, MenuItem, CentralArea, LogoImg, Tittle, RightArea, LanguageButton, TextboxContainer, TextboxInput, SearchIconWrapper} from './styled';
-import TranslateIcon from '../../assets/icons8-google-tradutor.svg?react';
-import ImgIcon from '../../assets/brotar.png'
-import SearchIcon from '../../assets/icons8-pesquisar.svg?react'
+import TranslateIcon from '../../assets/imagens/icons8-google-tradutor.svg?react';
+import ImgIcon from '../../assets/imagens/brotar.png'
+import SearchIcon from '../../assets/imagens/icons8-pesquisar.svg?react'
+import { translations } from '../../translation';
 
 const Header = () => {
+  const [lang, setLang] = React.useState("pt");
+  const translate = translations[lang];
+
   return (
     <header>
       <Container>
         {/* Area Esquerda do Header */}
         <LeftArea>
           <Nav>
-          <MenuItem to="/" end>Home</MenuItem>
-          <MenuItem to="/Categories">Categorias</MenuItem>
-          <MenuItem to="/About">Sobre</MenuItem>
-          <MenuItem to="/Contact">Contatos</MenuItem>
+          <MenuItem to="/" end>{translate.home}</MenuItem>
+          <MenuItem to="/categories">{translate.categories}</MenuItem>
+          <MenuItem to="/about">{translate.about}</MenuItem>
+          <MenuItem to="/contact">{translate.contact}</MenuItem>
         </Nav>
         </LeftArea>
           {/* Area central do Header */}
@@ -24,9 +28,9 @@ const Header = () => {
         </CentralArea>
           {/* Area direita do Header */}
         <RightArea>
-          <LanguageButton>
+          <LanguageButton onClick={() => setLang( lang === "pt" ? "en" : "pt")}>
+            {lang === "pt" ? "Português" : "English"}
             <TranslateIcon />
-            Português
           </LanguageButton>
 
           <TextboxContainer>
@@ -34,7 +38,7 @@ const Header = () => {
               <SearchIcon />
               </SearchIconWrapper>
             
-            <TextboxInput placeholder="Procurar em Belém..." />
+            <TextboxInput placeholder={translate.search} />
           </TextboxContainer>
         </RightArea>
       </Container>

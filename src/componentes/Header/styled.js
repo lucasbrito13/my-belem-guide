@@ -5,11 +5,10 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 95;
-  max-width: 100%
-  height: 56px;
-  padding: 0 32px;
+  max-width: 100vw;
+  height: 70px;
   background: #3b7d5bff;
+
 `;
 
 /* Área da esquerda  */
@@ -91,8 +90,7 @@ export const RightArea = styled.div`
   width: 400px;
   display: flex;
   align-items: center;
-  gap: 12px;
-  flex-shrink: 0;
+  gap: 10px;
 `;
 
 /* Butão de linguagem */
@@ -100,7 +98,6 @@ export const LanguageButton = styled.button`
   position: relative;
   width: 75px;
   height: 28px;
-  padding: 0 px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -131,7 +128,7 @@ export const LanguageButton = styled.button`
   }
 
   svg {
-    fill: #3b7d5bff; /* Verde do seu UX */
+    fill: #3b7d5bff;
     width: 12px;
     height: 12px;
   }
@@ -163,7 +160,7 @@ export const TextboxInput = styled.input`
   }
 
   &:focus {
-    color: #FFD447;
+    color: #000000;
     border-color: #3B7D5B;
   }
 
