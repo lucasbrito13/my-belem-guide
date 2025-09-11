@@ -1,0 +1,91 @@
+.banner-back { 
+  width: 95%;
+  margin: 15px auto; 
+  height: 80vh;  
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1F;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(86,93,109,0.6);
+
+
+  background: linear-gradient(#FFFFFF80),url(../../assets/imagens/estação-das-docas.jpg) no-repeat center center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.banner-text h1 {
+  font-family: Montserrat; 
+  font-size: 60px; 
+  line-height: 60px; 
+  font-weight: 700; 
+  color: #000000FF;
+
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.banner-text h3 {
+  font-family: Montserrat; 
+  font-size: 20px; 
+  line-height: 28px; 
+  font-weight: 400; 
+  color: #242524;
+  margin: 10px;
+}
+
+.select-categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 35%;
+  height: 25%;
+  background-color: #fdf5e6;
+
+  border-radius: 12px; 
+  border-width: 1px; 
+  border-color: #8C8D8BFF;
+  border-style: solid; 
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1F;
+}
+
+.select-categories label {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+#select-cat{
+  background-color: #fdf5e6;
+  width: 80%;
+  height: 30%;
+  padding: 0 34px 0 12px;
+
+  border-radius: 5px;
+  border-width: 1px; 
+  border-color: #EBEBEAFF; 
+  border-style: solid; 
+  outline: none;
+  color: #8C8D8BFF;
+}
+
+#select-cat option {
+  background-color: #fdf5e6;  /* cor do fundo da opção */
+  color: #8C8D8BFF;                  /* cor do texto */
+}

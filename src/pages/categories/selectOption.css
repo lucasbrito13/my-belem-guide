@@ -1,0 +1,66 @@
+/* MeuSelect.css */
+.meu-seletor {
+  background-color: #fdf5e6;
+  position: relative;
+  width:  30%;
+  max-height: 25%;
+
+  border-radius: 12px; 
+  border-width: 1px; 
+  border-color: #BDC1CAFF;
+  border-style: solid; 
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1F;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meu-seletor h2 {
+  font-family: Montserrat; 
+  font-size: 18px; 
+  line-height: 28px; 
+  font-weight: 600; 
+  color: #242524FF; 
+
+  margin: 20px;
+}
+
+.meu-seletor button {
+  width: 90%;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #8C8D8BFF;
+  text-align: left;
+  color: #8C8D8BFF;
+  margin-bottom: 10px;
+
+  border-radius: 6px; 
+  border-width: 1px; 
+  border-color: #EBEBEAFF; 
+  border-style: solid; 
+  outline: none;
+}
+
+.lista {
+  position: absolute;
+  width: 90%;
+  background: #fff;
+  border: 1px solid #ccc;
+  top: 90%;
+  padding: 0;
+  list-style: none;
+  color: #8C8D8BFF;
+}
+
+.lista li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Aqui você tem controle total do hover */
+.lista li:hover {
+  background: #3b7d5bff;
+  color: #fff;
+}

@@ -5,7 +5,7 @@ import "./ButtonToAction.css";
 
 export default function ButtonToAction({ children }) {
   return (
-    <Link to="/categorias" className="hero-btn">
+    <Link to="/categories" className="hero-btn">
       <button className="hero-btn-categouries">
         {children}
         <ArrowIcon className="icon" />
